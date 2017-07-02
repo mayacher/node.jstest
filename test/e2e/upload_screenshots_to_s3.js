@@ -19,10 +19,10 @@ function s3_create () {
     // fs.createReadStream(path.join(__dirname + '/index.html'))
     //   .pipe(fs.createWriteStream(conf.SCREENSHOT_PATH + 'index.html'));
     // fist read the list of screenshots
-    //var images = fs.readdirSync(SP).filter(file => {
-    //  return fs.statSync(SP + file).isFile()
-    //    && file.indexOf('.png') > -1; // only screenshot images
-    //})
+       var images = fs.readdirSync(SP).filter(file => {
+         return fs.statSync(SP + file).isFile()
+         && file.indexOf('.png') > -1; // only screenshot images
+    })
     // create meta.json with list of screenshots
     var meta = {images: images}
     fs.writeFileSync(path.join(SP, 'meta.json'), JSON.stringify(meta, null, 2));
