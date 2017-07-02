@@ -9,8 +9,7 @@ var s3bucket = new AWS.S3({params: {Bucket: process.env.AWS_S3_BUCKET}});
 
 function s3_create () {
   if(!process.env.AWS_ACCESS_KEY_ID) {
-    console.log(`If you want to upload Screenshots to S3
-      please set your AWS Environment Variables (see readme).`);
+    console.log(//If you want to upload Screenshots to S3 please set your AWS Environment Variables (see readme).//);
   }
   else {
     var SP = conf.SCREENSHOT_PATH;
