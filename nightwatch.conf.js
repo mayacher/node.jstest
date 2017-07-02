@@ -14,7 +14,7 @@ module.exports = {
     "host": "127.0.0.1",
     "port": 4444, // standard selenium port
     "cli_args": { // chromedriver is downloaded by selenium-download (see readme)
-      "webdriver.chrome.driver" : "./node_modules/nightwatch/bin/chromedriver"
+      "phantomjs.binary.path" : "node_modules/phantomjs/bin/phantomjs"
     }
   },
   "test_settings": {
@@ -27,12 +27,12 @@ module.exports = {
         "waitForConditionTimeout": 5000 // sometimes internet is slow so wait.
       },
       "desiredCapabilities": { // use Chrome as the default browser for tests
-        "browserName": "chrome"
+        "browserName": "phantomjs"
       }
     },
     "chrome": {
       "desiredCapabilities": {
-        "browserName": "chrome",
+        "browserName": "phantomjs",
         "javascriptEnabled": true // turn off to test progressive enhancement
       }
     }

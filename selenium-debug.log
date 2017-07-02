@@ -1,0 +1,165 @@
+17:10:21.691 INFO - Selenium build info: version: '3.3.0', revision: 'b526bd5'
+17:10:21.691 INFO - Launching a standalone Selenium Server
+2017-07-02 17:10:21.709:INFO::main: Logging initialized @233ms to org.seleniumhq.jetty9.util.log.StdErrLog
+17:10:21.761 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+ registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+17:10:21.761 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+ registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+17:10:21.762 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:10:21.762 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+Unable to create new instances on this machine.
+17:10:21.762 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+17:10:21.762 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-07-02 17:10:21.805:INFO:osjs.Server:main: jetty-9.2.20.v20161216
+2017-07-02 17:10:21.843:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@685cb137{/,null,AVAILABLE}
+2017-07-02 17:10:21.872:INFO:osjs.AbstractConnector:main: Started ServerConnector@5bcab519{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-07-02 17:10:21.873:INFO:osjs.Server:main: Started @397ms
+17:10:21.873 INFO - Selenium Server is up and running
+17:10:22.067 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+17:10:22.091 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Github, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]])
+17:10:22.105 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Github, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]
+17:10:22.124 INFO - executable: /Users/mayachernobroda/projects/github/node.jstest/node_modules/phantomjs/bin/phantomjs
+17:10:22.124 INFO - port: 1766
+17:10:22.124 INFO - arguments: [--webdriver=1766, --webdriver-logfile=/Users/mayachernobroda/projects/github/node.jstest/phantomjsdriver.log]
+17:10:22.124 INFO - environment: {}
+[INFO  - 2017-07-02T14:10:23.194Z] GhostDriver - Main - running on port 1766
+[INFO  - 2017-07-02T14:10:23.441Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T14:10:23.441Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T14:10:23.441Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T14:10:23.441Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 30789fd0-5f30-11e7-b51c-ade353a1e0aa
+17:10:23.451 INFO - Detected dialect: OSS
+17:10:23.471 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Github, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]]
+17:10:23.493 INFO - Executing: [get: http://www.github.com/dwyl])
+[ERROR - 2017-07-02T14:10:27.602Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - page.onError - msg: ReferenceError: Can't find variable: Promise
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-07-02T14:10:27.603Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-07-02T14:10:27.612Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - page.onError - msg: ReferenceError: Can't find variable: Promise
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-07-02T14:10:27.612Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - page.onError - stack:
+  load (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  createdCallback (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  r (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  v (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  g (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-07-02T14:10:27.935Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - page.onError - msg: ReferenceError: Can't find variable: Promise
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-07-02T14:10:27.935Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+
+  phantomjs://platform/console++.js:263 in error
+17:10:27.940 INFO - Done: [get: http://www.github.com/dwyl]
+17:10:27.950 INFO - Executing: [find elements: By.cssSelector: body])
+17:10:27.989 INFO - Done: [find elements: By.cssSelector: body]
+17:10:27.994 INFO - Executing: [is displayed: 0 [[PhantomJSDriver: phantomjs on MAC (30789fd0-5f30-11e7-b51c-ade353a1e0aa)] -> css selector: body]])
+17:10:28.020 INFO - Done: [is displayed: 0 [[PhantomJSDriver: phantomjs on MAC (30789fd0-5f30-11e7-b51c-ade353a1e0aa)] -> css selector: body]]
+17:10:28.038 INFO - Executing: [find element: By.cssSelector: .switch-to-desktop])
+[ERROR - 2017-07-02T14:10:28.283Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1499004628242
+
+  phantomjs://platform/console++.js:263 in error
+17:10:29.734 WARN - Exception thrown
+org.openqa.selenium.NoSuchElementException: {"errorMessage":"Unable to find element with css selector '.switch-to-desktop'","request":{"headers":{"Accept-Encoding":"gzip,deflate","Connection":"Keep-Alive","Content-Length":"53","Content-Type":"application/json; charset=utf-8","Host":"localhost:1766","User-Agent":"Apache-HttpClient/4.5.2 (Java/1.8.0_131)"},"httpVersion":"1.1","method":"POST","post":"{\"using\":\"css selector\",\"value\":\".switch-to-desktop\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/30789fd0-5f30-11e7-b51c-ade353a1e0aa/element"}}
+Command duration or timeout: 1.00 seconds
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:468)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:104)
+	at com.sun.proxy.$Proxy4.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:188)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:48)
+	at org.openqa.selenium.remote.server.handler.FindElement.call(FindElement.java:33)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openqa.selenium.remote.server.DefaultSession$1.run(DefaultSession.java:176)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:142)
+	... 19 more
+Caused by: org.openqa.selenium.NoSuchElementException: {"errorMessage":"Unable to find element with css selector '.switch-to-desktop'","request":{"headers":{"Accept-Encoding":"gzip,deflate","Connection":"Keep-Alive","Content-Length":"53","Content-Type":"application/json; charset=utf-8","Host":"localhost:1766","User-Agent":"Apache-HttpClient/4.5.2 (Java/1.8.0_131)"},"httpVersion":"1.1","method":"POST","post":"{\"using\":\"css selector\",\"value\":\".switch-to-desktop\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/30789fd0-5f30-11e7-b51c-ade353a1e0aa/element"}}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.0', revision: 'b526bd5', time: '2017-03-07 11:21:31 -0800'
+System info: host: 'Mayas-MacBook-Pro.local', ip: 'fe80:0:0:0:14d1:265b:ba86:ba6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+17:10:29.737 WARN - Exception: {"errorMessage":"Unable to find element with css selector '.switch-to-desktop'","request":{"headers":{"Accept-Encoding":"gzip,deflate","Connection":"Keep-Alive","Content-Length":"53","Content-Type":"application/json; charset=utf-8","Host":"localhost:1766","User-Agent":"Apache-HttpClient/4.5.2 (Java/1.8.0_131)"},"httpVersion":"1.1","method":"POST","post":"{\"using\":\"css selector\",\"value\":\".switch-to-desktop\"}","url":"/element","urlParsed":{"anchor":"","query":"","file":"element","directory":"/","path":"/element","relative":"/element","port":"","host":"","password":"","user":"","userInfo":"","authority":"","protocol":"","source":"/element","queryKey":{},"chunks":["element"]},"urlOriginal":"/session/30789fd0-5f30-11e7-b51c-ade353a1e0aa/element"}}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.3.0', revision: 'b526bd5', time: '2017-03-07 11:21:31 -0800'
+System info: host: 'Mayas-MacBook-Pro.local', ip: 'fe80:0:0:0:14d1:265b:ba86:ba6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.5', java.version: '1.8.0_131'
+Driver info: driver.version: unknown
+17:10:29.800 INFO - Executing: [find element: By.cssSelector: body])
+17:10:29.811 INFO - Done: [find element: By.cssSelector: body]
+17:10:29.815 INFO - Executing: [get text: 0 [[PhantomJSDriver: phantomjs on MAC (30789fd0-5f30-11e7-b51c-ade353a1e0aa)] -> css selector: body]])
+17:10:29.927 INFO - Done: [get text: 0 [[PhantomJSDriver: phantomjs on MAC (30789fd0-5f30-11e7-b51c-ade353a1e0aa)] -> css selector: body]]
+17:10:29.932 INFO - Executing: [take screenshot])
+17:10:30.532 INFO - Done: [take screenshot]
+17:10:30.635 INFO - Executing: [delete session: 8c110d63-da71-4b0d-a379-201923cde369])
+[INFO  - 2017-07-02T14:10:30.646Z] ShutdownReqHand - _handle - About to shutdown
+17:10:30.751 INFO - Done: [delete session: 8c110d63-da71-4b0d-a379-201923cde369]
+17:10:30.769 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Guinea Pig, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]])
+17:10:30.770 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Guinea Pig, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]
+17:10:30.771 INFO - executable: /Users/mayachernobroda/projects/github/node.jstest/node_modules/phantomjs/bin/phantomjs
+17:10:30.771 INFO - port: 32200
+17:10:30.771 INFO - arguments: [--webdriver=32200, --webdriver-logfile=/Users/mayachernobroda/projects/github/node.jstest/phantomjsdriver.log]
+17:10:30.771 INFO - environment: {}
+[INFO  - 2017-07-02T14:10:31.610Z] GhostDriver - Main - running on port 32200
+[INFO  - 2017-07-02T14:10:31.755Z] Session [356d3d70-5f30-11e7-bd8a-ff8a4b9151ed] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T14:10:31.756Z] Session [356d3d70-5f30-11e7-bd8a-ff8a4b9151ed] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T14:10:31.756Z] Session [356d3d70-5f30-11e7-bd8a-ff8a4b9151ed] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T14:10:31.756Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 356d3d70-5f30-11e7-bd8a-ff8a4b9151ed
+17:10:31.757 INFO - Detected dialect: OSS
+17:10:31.761 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Guinea Pig, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]]
+17:10:31.766 INFO - Executing: [get: http://127.0.0.1:3000/])
+17:10:31.796 INFO - Done: [get: http://127.0.0.1:3000/]
+17:10:31.800 INFO - Executing: [find elements: By.cssSelector: body])
+17:10:31.813 INFO - Done: [find elements: By.cssSelector: body]
+17:10:31.817 INFO - Executing: [is displayed: 0 [[PhantomJSDriver: phantomjs on MAC (356d3d70-5f30-11e7-bd8a-ff8a4b9151ed)] -> css selector: body]])
+17:10:31.832 INFO - Done: [is displayed: 0 [[PhantomJSDriver: phantomjs on MAC (356d3d70-5f30-11e7-bd8a-ff8a4b9151ed)] -> css selector: body]]
+17:10:31.836 INFO - Executing: [get title])
+17:10:31.840 INFO - Done: [get title]
+17:10:31.843 INFO - Executing: [take screenshot])
+17:10:31.952 INFO - Done: [take screenshot]
+17:10:31.965 INFO - Executing: [take screenshot])
+17:10:32.031 INFO - Done: [take screenshot]
+17:10:32.042 INFO - Executing: [delete session: e0e1c0d6-719b-4721-8fb4-ac1be4fc83f0])
+[INFO  - 2017-07-02T14:10:32.048Z] ShutdownReqHand - _handle - About to shutdown
+17:10:33.118 INFO - Done: [delete session: e0e1c0d6-719b-4721-8fb4-ac1be4fc83f0]

@@ -1,0 +1,376 @@
+[INFO  - 2017-07-02T13:54:13.696Z] GhostDriver - Main - running on port 8164
+[INFO  - 2017-07-02T13:54:13.822Z] Session [ee8881a0-5f2d-11e7-ad84-1146ca47b33b] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T13:54:13.822Z] Session [ee8881a0-5f2d-11e7-ad84-1146ca47b33b] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T13:54:13.822Z] Session [ee8881a0-5f2d-11e7-ad84-1146ca47b33b] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T13:54:13.822Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ee8881a0-5f2d-11e7-ad84-1146ca47b33b
+[ERROR - 2017-07-02T13:54:17.598Z] Session [ee8881a0-5f2d-11e7-ad84-1146ca47b33b] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T13:54:17.598Z] Session [ee8881a0-5f2d-11e7-ad84-1146ca47b33b] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+[ERROR - 2017-07-02T13:54:17.629Z] Session [ee8881a0-5f2d-11e7-ad84-1146ca47b33b] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T13:54:17.629Z] Session [ee8881a0-5f2d-11e7-ad84-1146ca47b33b] - page.onError - stack:
+  load (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  createdCallback (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  r (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  v (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  g (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:2)
+[ERROR - 2017-07-02T13:54:17.922Z] Session [ee8881a0-5f2d-11e7-ad84-1146ca47b33b] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T13:54:17.922Z] Session [ee8881a0-5f2d-11e7-ad84-1146ca47b33b] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+[ERROR - 2017-07-02T13:54:18.251Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1499003658209
+[INFO  - 2017-07-02T13:54:20.946Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-07-02T13:54:21.956Z] GhostDriver - Main - running on port 38094
+[INFO  - 2017-07-02T13:54:22.082Z] Session [f374e1e0-5f2d-11e7-88ea-b553683b5f62] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T13:54:22.082Z] Session [f374e1e0-5f2d-11e7-88ea-b553683b5f62] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T13:54:22.083Z] Session [f374e1e0-5f2d-11e7-88ea-b553683b5f62] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T13:54:22.083Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f374e1e0-5f2d-11e7-88ea-b553683b5f62
+[INFO  - 2017-07-02T13:54:22.175Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-07-02T13:54:44.460Z] GhostDriver - Main - running on port 38869
+[INFO  - 2017-07-02T13:54:44.679Z] Session [00ece930-5f2e-11e7-a727-734d5fb6616e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T13:54:44.679Z] Session [00ece930-5f2e-11e7-a727-734d5fb6616e] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T13:54:44.679Z] Session [00ece930-5f2e-11e7-a727-734d5fb6616e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T13:54:44.679Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 00ece930-5f2e-11e7-a727-734d5fb6616e
+[ERROR - 2017-07-02T13:54:48.639Z] Session [00ece930-5f2e-11e7-a727-734d5fb6616e] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T13:54:48.639Z] Session [00ece930-5f2e-11e7-a727-734d5fb6616e] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+[ERROR - 2017-07-02T13:54:48.650Z] Session [00ece930-5f2e-11e7-a727-734d5fb6616e] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T13:54:48.650Z] Session [00ece930-5f2e-11e7-a727-734d5fb6616e] - page.onError - stack:
+  load (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  createdCallback (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  r (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  v (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  g (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:2)
+[ERROR - 2017-07-02T13:54:48.817Z] Session [00ece930-5f2e-11e7-a727-734d5fb6616e] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T13:54:48.817Z] Session [00ece930-5f2e-11e7-a727-734d5fb6616e] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+[ERROR - 2017-07-02T13:54:49.133Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1499003689092
+[INFO  - 2017-07-02T13:54:51.859Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-07-02T13:54:52.866Z] GhostDriver - Main - running on port 23057
+[INFO  - 2017-07-02T13:54:52.992Z] Session [05e138b0-5f2e-11e7-93e6-67c77cecf3e8] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T13:54:52.992Z] Session [05e138b0-5f2e-11e7-93e6-67c77cecf3e8] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T13:54:52.992Z] Session [05e138b0-5f2e-11e7-93e6-67c77cecf3e8] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T13:54:52.992Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 05e138b0-5f2e-11e7-93e6-67c77cecf3e8
+[INFO  - 2017-07-02T13:54:53.085Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-07-02T13:55:42.881Z] GhostDriver - Main - running on port 37519
+[INFO  - 2017-07-02T13:55:43.108Z] Session [23c09f10-5f2e-11e7-a6ec-4368590f1580] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T13:55:43.109Z] Session [23c09f10-5f2e-11e7-a6ec-4368590f1580] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T13:55:43.109Z] Session [23c09f10-5f2e-11e7-a6ec-4368590f1580] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T13:55:43.109Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 23c09f10-5f2e-11e7-a6ec-4368590f1580
+[ERROR - 2017-07-02T13:55:47.157Z] Session [23c09f10-5f2e-11e7-a6ec-4368590f1580] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T13:55:47.157Z] Session [23c09f10-5f2e-11e7-a6ec-4368590f1580] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+[ERROR - 2017-07-02T13:55:47.180Z] Session [23c09f10-5f2e-11e7-a6ec-4368590f1580] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T13:55:47.180Z] Session [23c09f10-5f2e-11e7-a6ec-4368590f1580] - page.onError - stack:
+  load (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  createdCallback (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  r (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  v (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  g (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:2)
+[ERROR - 2017-07-02T13:55:47.433Z] Session [23c09f10-5f2e-11e7-a6ec-4368590f1580] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T13:55:47.433Z] Session [23c09f10-5f2e-11e7-a6ec-4368590f1580] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+[ERROR - 2017-07-02T13:55:47.790Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1499003747751
+[INFO  - 2017-07-02T13:55:50.107Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-07-02T13:55:51.091Z] GhostDriver - Main - running on port 5516
+[INFO  - 2017-07-02T13:55:51.233Z] Session [289817c0-5f2e-11e7-b1c4-3fd15553a1fb] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T13:55:51.233Z] Session [289817c0-5f2e-11e7-b1c4-3fd15553a1fb] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T13:55:51.233Z] Session [289817c0-5f2e-11e7-b1c4-3fd15553a1fb] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T13:55:51.233Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 289817c0-5f2e-11e7-b1c4-3fd15553a1fb
+[INFO  - 2017-07-02T13:55:51.325Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-07-02T13:58:34.210Z] GhostDriver - Main - running on port 25034
+[INFO  - 2017-07-02T13:58:34.455Z] Session [89e1f230-5f2e-11e7-a206-4b56ae6d11a7] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T13:58:34.455Z] Session [89e1f230-5f2e-11e7-a206-4b56ae6d11a7] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T13:58:34.455Z] Session [89e1f230-5f2e-11e7-a206-4b56ae6d11a7] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T13:58:34.455Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 89e1f230-5f2e-11e7-a206-4b56ae6d11a7
+[ERROR - 2017-07-02T13:58:38.440Z] Session [89e1f230-5f2e-11e7-a206-4b56ae6d11a7] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T13:58:38.440Z] Session [89e1f230-5f2e-11e7-a206-4b56ae6d11a7] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+[ERROR - 2017-07-02T13:58:38.451Z] Session [89e1f230-5f2e-11e7-a206-4b56ae6d11a7] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T13:58:38.451Z] Session [89e1f230-5f2e-11e7-a206-4b56ae6d11a7] - page.onError - stack:
+  load (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  createdCallback (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  r (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  v (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  g (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:2)
+[ERROR - 2017-07-02T13:58:38.616Z] Session [89e1f230-5f2e-11e7-a206-4b56ae6d11a7] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T13:58:38.616Z] Session [89e1f230-5f2e-11e7-a206-4b56ae6d11a7] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+[ERROR - 2017-07-02T13:58:39.034Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1499003918996
+[INFO  - 2017-07-02T13:58:41.323Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-07-02T13:58:42.316Z] GhostDriver - Main - running on port 15736
+[INFO  - 2017-07-02T13:58:42.454Z] Session [8ea65810-5f2e-11e7-9050-6d09684803e1] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T13:58:42.454Z] Session [8ea65810-5f2e-11e7-9050-6d09684803e1] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T13:58:42.454Z] Session [8ea65810-5f2e-11e7-9050-6d09684803e1] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T13:58:42.454Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8ea65810-5f2e-11e7-9050-6d09684803e1
+[INFO  - 2017-07-02T13:58:42.549Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-07-02T13:59:03.041Z] GhostDriver - Main - running on port 25660
+[INFO  - 2017-07-02T13:59:03.278Z] Session [9b0ffca0-5f2e-11e7-a53b-b382c284bdec] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T13:59:03.278Z] Session [9b0ffca0-5f2e-11e7-a53b-b382c284bdec] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T13:59:03.278Z] Session [9b0ffca0-5f2e-11e7-a53b-b382c284bdec] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T13:59:03.279Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9b0ffca0-5f2e-11e7-a53b-b382c284bdec
+[ERROR - 2017-07-02T13:59:07.266Z] Session [9b0ffca0-5f2e-11e7-a53b-b382c284bdec] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T13:59:07.266Z] Session [9b0ffca0-5f2e-11e7-a53b-b382c284bdec] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+[ERROR - 2017-07-02T13:59:07.294Z] Session [9b0ffca0-5f2e-11e7-a53b-b382c284bdec] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T13:59:07.294Z] Session [9b0ffca0-5f2e-11e7-a53b-b382c284bdec] - page.onError - stack:
+  load (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  createdCallback (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  r (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  v (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  g (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:2)
+[ERROR - 2017-07-02T13:59:07.725Z] Session [9b0ffca0-5f2e-11e7-a53b-b382c284bdec] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T13:59:07.725Z] Session [9b0ffca0-5f2e-11e7-a53b-b382c284bdec] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+[ERROR - 2017-07-02T13:59:08.125Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1499003948073
+[INFO  - 2017-07-02T13:59:10.399Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-07-02T13:59:11.379Z] GhostDriver - Main - running on port 36731
+[INFO  - 2017-07-02T13:59:11.528Z] Session [9ffaaf30-5f2e-11e7-b0f4-4bb13c5a5d0c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T13:59:11.528Z] Session [9ffaaf30-5f2e-11e7-b0f4-4bb13c5a5d0c] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T13:59:11.528Z] Session [9ffaaf30-5f2e-11e7-b0f4-4bb13c5a5d0c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T13:59:11.528Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9ffaaf30-5f2e-11e7-b0f4-4bb13c5a5d0c
+[INFO  - 2017-07-02T13:59:11.618Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-07-02T14:09:20.113Z] GhostDriver - Main - running on port 8211
+[INFO  - 2017-07-02T14:09:20.367Z] Session [0ae04bb0-5f30-11e7-989b-f99f84ee29bd] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T14:09:20.367Z] Session [0ae04bb0-5f30-11e7-989b-f99f84ee29bd] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T14:09:20.367Z] Session [0ae04bb0-5f30-11e7-989b-f99f84ee29bd] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T14:09:20.368Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0ae04bb0-5f30-11e7-989b-f99f84ee29bd
+[ERROR - 2017-07-02T14:09:24.358Z] Session [0ae04bb0-5f30-11e7-989b-f99f84ee29bd] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T14:09:24.358Z] Session [0ae04bb0-5f30-11e7-989b-f99f84ee29bd] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+[ERROR - 2017-07-02T14:09:24.370Z] Session [0ae04bb0-5f30-11e7-989b-f99f84ee29bd] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T14:09:24.370Z] Session [0ae04bb0-5f30-11e7-989b-f99f84ee29bd] - page.onError - stack:
+  load (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  createdCallback (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  r (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  v (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  g (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:2)
+[ERROR - 2017-07-02T14:09:24.534Z] Session [0ae04bb0-5f30-11e7-989b-f99f84ee29bd] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T14:09:24.535Z] Session [0ae04bb0-5f30-11e7-989b-f99f84ee29bd] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+[ERROR - 2017-07-02T14:09:24.923Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1499004564896
+[INFO  - 2017-07-02T14:09:27.320Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-07-02T14:09:28.465Z] GhostDriver - Main - running on port 31746
+[INFO  - 2017-07-02T14:09:28.751Z] Session [0fdf97b0-5f30-11e7-8af3-6f895ab93df6] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T14:09:28.752Z] Session [0fdf97b0-5f30-11e7-8af3-6f895ab93df6] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T14:09:28.752Z] Session [0fdf97b0-5f30-11e7-8af3-6f895ab93df6] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T14:09:28.752Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0fdf97b0-5f30-11e7-8af3-6f895ab93df6
+[INFO  - 2017-07-02T14:09:28.848Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-07-02T14:09:51.519Z] GhostDriver - Main - running on port 47347
+[INFO  - 2017-07-02T14:09:51.748Z] Session [1d94a800-5f30-11e7-b331-4d311579b965] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T14:09:51.748Z] Session [1d94a800-5f30-11e7-b331-4d311579b965] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T14:09:51.748Z] Session [1d94a800-5f30-11e7-b331-4d311579b965] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T14:09:51.748Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1d94a800-5f30-11e7-b331-4d311579b965
+[ERROR - 2017-07-02T14:09:55.551Z] Session [1d94a800-5f30-11e7-b331-4d311579b965] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T14:09:55.551Z] Session [1d94a800-5f30-11e7-b331-4d311579b965] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+[ERROR - 2017-07-02T14:09:55.580Z] Session [1d94a800-5f30-11e7-b331-4d311579b965] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T14:09:55.580Z] Session [1d94a800-5f30-11e7-b331-4d311579b965] - page.onError - stack:
+  load (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  createdCallback (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  r (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  v (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  g (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:2)
+[ERROR - 2017-07-02T14:09:55.873Z] Session [1d94a800-5f30-11e7-b331-4d311579b965] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T14:09:55.873Z] Session [1d94a800-5f30-11e7-b331-4d311579b965] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+[ERROR - 2017-07-02T14:09:56.217Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1499004596182
+[INFO  - 2017-07-02T14:09:58.594Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-07-02T14:09:59.728Z] GhostDriver - Main - running on port 21024
+[INFO  - 2017-07-02T14:10:00.043Z] Session [22863860-5f30-11e7-8743-f7b8a6cfa7e9] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T14:10:00.043Z] Session [22863860-5f30-11e7-8743-f7b8a6cfa7e9] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T14:10:00.043Z] Session [22863860-5f30-11e7-8743-f7b8a6cfa7e9] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T14:10:00.043Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 22863860-5f30-11e7-8743-f7b8a6cfa7e9
+[INFO  - 2017-07-02T14:10:00.137Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-07-02T14:10:23.194Z] GhostDriver - Main - running on port 1766
+[INFO  - 2017-07-02T14:10:23.441Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T14:10:23.441Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T14:10:23.441Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T14:10:23.441Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 30789fd0-5f30-11e7-b51c-ade353a1e0aa
+[ERROR - 2017-07-02T14:10:27.603Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T14:10:27.603Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+[ERROR - 2017-07-02T14:10:27.612Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T14:10:27.613Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - page.onError - stack:
+  load (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  createdCallback (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:7)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  r (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  v (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  i (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  g (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:2)
+[ERROR - 2017-07-02T14:10:27.935Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-07-02T14:10:27.935Z] Session [30789fd0-5f30-11e7-b51c-ade353a1e0aa] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-9cbd03ea56461e84ab8956bf7799a977d6cc8a1f984c71b5ecb2edfdba3d773f.js:1)
+[ERROR - 2017-07-02T14:10:28.283Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1499004628242
+[INFO  - 2017-07-02T14:10:30.646Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2017-07-02T14:10:31.610Z] GhostDriver - Main - running on port 32200
+[INFO  - 2017-07-02T14:10:31.755Z] Session [356d3d70-5f30-11e7-bd8a-ff8a4b9151ed] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-07-02T14:10:31.756Z] Session [356d3d70-5f30-11e7-bd8a-ff8a4b9151ed] - page.customHeaders:  - {}
+[INFO  - 2017-07-02T14:10:31.756Z] Session [356d3d70-5f30-11e7-bd8a-ff8a4b9151ed] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-07-02T14:10:31.756Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 356d3d70-5f30-11e7-bd8a-ff8a4b9151ed
+[INFO  - 2017-07-02T14:10:32.048Z] ShutdownReqHand - _handle - About to shutdown
