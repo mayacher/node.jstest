@@ -9,7 +9,7 @@ var s3bucket = new AWS.S3({params: {Bucket: process.env.AWS_S3_BUCKET}});
 
 function s3_create () {
   if(!process.env.AWS_ACCESS_KEY_ID) {
-    //console.log(`If you want to upload Screenshots to S3 please set your AWS Environment Variables (see readme).`);
+    console.log('If you want to upload Screenshots to S3 please set your AWS Environment Variables (see readme).');
   }
   else {
     var SP = conf.SCREENSHOT_PATH;
@@ -19,10 +19,10 @@ function s3_create () {
     // fs.createReadStream(path.join(__dirname + '/index.html'))
     //   .pipe(fs.createWriteStream(conf.SCREENSHOT_PATH + 'index.html'));
     // fist read the list of screenshots
-       var images = fs.readdirSync(SP).filter(file => {
-         return fs.statSync(SP + file).isFile()
-         && file.indexOf('.png') > -1; // only screenshot images
-    })
+    //var images = fs.readdirSync(SP).filter(file => {
+     // return fs.statSync(SP + file).isFile()
+      //  && file.indexOf('.png') > -1; // only screenshot images
+   // })
     // create meta.json with list of screenshots
     var meta = {images: images}
     fs.writeFileSync(path.join(SP, 'meta.json'), JSON.stringify(meta, null, 2));
