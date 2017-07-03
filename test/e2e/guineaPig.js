@@ -6,7 +6,7 @@ module.exports = { // addapted from: https://git.io/vodU0
     browser
       .url('http://127.0.0.1:3000/')
       .waitForElementVisible('body')
-      .assert.title('Elastic Beanstalk')
+      .assert.title('Elastic Beanstalk test')
       .saveScreenshot(config.imgpath(browser) + 'a-screenshot-description.png')
       .saveScreenshot(config.imgpath(browser) + 'nightwatch-roolz.png')
       .end();
